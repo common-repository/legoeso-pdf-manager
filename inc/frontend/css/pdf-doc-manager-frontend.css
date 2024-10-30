@@ -1,0 +1,85 @@
+ /**
+ * CSS style for PDF Doc Manager
+ * All of the CSS for your public-facing functionality should be included in this file.
+ *
+ * The file is enqueued from inc/frontend/class-frontend.php.
+ * @link       http://www.legoeso.com
+ * @since      1.0.0
+ * 
+ * @author     Torvis Wesley
+ */
+ .pdm_docs_buttons_container {
+	display:flex;
+	justify-content: space-around;
+    flex-direction: column;
+}
+.convertion_result_button {
+	font-size: 1.1rem;
+	padding:1rem;
+	
+	border-radius:4px;
+	background-color:#6B6B6B;
+	border: 1px solid #484848;
+}
+
+
+.pdm_docs_preview_container {
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.pdm_docs_thumbnail_result {
+	max-width: 100px;
+    max-height: 100px;
+    border: 1px solid;
+}
+
+.legoeso-table-header {
+	padding-bottom: 5px;
+	vertical-align: middle;
+	
+}
+
+.dataTables_wrapper select {
+	color: black;
+	font-size: 1rem;
+}
+.dataTables_wrapper select option{
+	color: black;
+	font-size: .9rem;
+}s
+.legoeso-dt-container a:link  {
+	color:black;
+}
+
+.legoeso-dt-container a:hover  {
+	color:red;
+}
+.legoeso-dt-container a:active  {
+	color:blue;
+}
+
+.legoeso-dt-container a:visited  {
+	color:purple;
+}
+
+.legoeso-dt-container {
+	background: #ffffff; 
+	border-radius: 4px; 
+	padding: 1em; 
+	color: black;
+	font-size: 0.8rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.legoeso-dt-container table td, table th{
+	border: none ;
+}
+
+.legoeso_header {
+	color:rgb(27, 24, 24);
+}
+
+.legoeso_ulist {
+	list-style: none;
+}

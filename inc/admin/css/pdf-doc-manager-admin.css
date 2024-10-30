@@ -1,0 +1,174 @@
+/**
+ * All of the CSS for your admin-specific functionality should be included in this file.
+ *
+ * The file is enqueued from inc/admin/class-admin.php.
+
+/**
+Jquery progress bar
+*/
+.ui-progressbar {
+    position: relative;
+    height: 10px;
+  }
+  
+  .progress-label {
+    top: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.status_messages {
+	vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    border-end-start-radius: 80px 80px;
+    border-end-end-radius: 80px 80px;
+}
+
+.server-response-box {
+	display:  none;   
+    padding: 5px 5px 5px 5px;
+    border-end-start-radius: 20px 20px;
+    border-end-end-radius: 20px 20px;
+    background-color: #e9ecef;
+}
+
+.server-response-box-show{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;   
+    padding: 5px 5px 5px 5px;
+    border-end-start-radius: 20px 20px;
+    border-end-end-radius: 20px 20px;
+    background-color: #e9ecef;
+    align-items: center;
+    
+}
+
+.server-response-head { 
+    display: flex;
+    align-items: center; 
+    line-height: 1;
+    text-align: center;
+    cursor:pointer;
+}
+.server-response-head-expand { 
+    display: flex;
+    align-items: center; 
+    line-height: 1;
+    text-align: center;
+    cursor:pointer;
+}
+.server-response-head::after { 
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: "dashicons"; 
+    content: "\f139";
+}
+
+.server-response-head-expand::after { 
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: "dashicons"; 
+    content: "\f140";
+}
+.server-message{
+    display: none;
+}
+.server-message-expand{
+    display: block;
+    padding: 10px 10px 10px 10px;
+}
+
+textarea.server-message-expand {
+    resize: vertical;
+    width: 97%;
+}
+
+a.delete_item{
+    color:crimson;
+}
+
+.drag-drop-info {
+width: auto;
+}
+.drag-drop #pdm-drag-drop-area{
+    border: 4px dashed #c3c4c7;
+    height: 250px;  
+}
+
+.drag-drop .drag-drop-inside {
+	margin: 60px auto 0;
+	width: auto;
+}
+
+.drag-drop-inside p {
+	font-size: 14px;
+	margin: 5px 0;
+	display: none;
+}
+
+.drag-drop .drag-drop-inside p {
+	text-align: center;
+}
+
+.drag-drop-inside p.drag-drop-info {
+	font-size: 14px;
+}
+
+.drag-drop .drag-drop-inside p,
+.drag-drop-inside p.drag-drop-buttons {
+	display: block;
+}
+
+.drag-drop-category {
+	display: block;
+    text-align: center;
+    margin: 5px 0;
+}
+/*
+#drag-drop-area:-moz-drag-over {
+	border-color: #83b4d8;
+}
+border color while dragging a file over the uploader drop area */
+.drag-drop.drag-over {
+	border-color: #0bb313;
+}
+.drag-drop-text {
+    color: #106e15;
+}
+
+#pdm-upload-upload-ui {
+	position: relative;
+}
+
+.no-js .hide-if-no-js{
+    display: none;
+}
+
+.wp-filter .view-category {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 12px 0;
+	margin: 0 8px 0 2px;
+}
+
+.view-category span {
+    width: 36px;
+    height: 36px;
+    line-height: 2.53846153;
+}
+
+.view-category:before {
+	content: "\f163";
+}
+.view-category:before {
+	color: #2271b1;
+}
